@@ -149,3 +149,28 @@ filter: grayscale(1) sepia(0.6); */
         transform: rotate(-360deg);
     }
 }
+
+
+
+/* Esercizio 11 */
+
+.ex-11-icon:hover
+{
+    animation: spin2 2s linear;
+}
+
+
+@keyframes spin2 { 
+    0% {
+        transform: rotate(0);
+    }
+    33% {
+        transform: rotate(150deg);
+    }
+    66% {
+        transform: rotate(300deg);
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
