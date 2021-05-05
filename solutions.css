@@ -31,8 +31,10 @@
 
 .ex-3-square
 {
-    transition: border-radius 2s;
+    transition: border-radius 1s;
 }
 
-
-.ex
+.ex-3-square:hover
+{
+    border-radius: 50%;
+}
