@@ -69,3 +69,13 @@
 {
     transform: scale(0.5);
 }
+
+
+/* Esercizio 6 */
+
+.ex-6-img:hover
+{
+    filter: grayscale(1);
+}
+
+/* N.B. in questo caso si può utilizzare sia la percentuale, quindi 100% per farlo diventare in scala di grigi, sia utilizzare i numeri, in questo caso 1 per farlo diventare in scala di grigi.  */
