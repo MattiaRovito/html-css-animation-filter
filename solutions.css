@@ -79,3 +79,17 @@
 }
 
 /* N.B. in questo caso si può utilizzare sia la percentuale, quindi 100% per farlo diventare in scala di grigi, sia utilizzare i numeri, in questo caso 1 per farlo diventare in scala di grigi.  */
+
+
+/* Esercizio 7 */
+
+.ex-7-img
+{
+    transition: 2s;
+}
+
+.ex-7-img:hover
+{
+    filter: grayscale(1);
+}
+
