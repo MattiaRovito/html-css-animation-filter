@@ -91,5 +91,14 @@
 .ex-7-img:hover
 {
     filter: grayscale(1);
+    filter: sepia(0.6);
 }
+
+/* N.B. quando si vuole lavorare su più filtri, si possono scrivere singolarmente come nell'esempio, oppure scriverli insieme:
+filter: grayscale(1) sepia(0.6); */
+
+
+
+
+/* Esercizio 8 */
 
