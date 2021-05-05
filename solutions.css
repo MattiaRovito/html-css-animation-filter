@@ -130,3 +130,22 @@ filter: grayscale(1) sepia(0.6); */
     border-radius: 15px;
     transform: scale(1.5);
 }
+
+
+
+/* Esercizio 10 */
+
+.ex-10-icon
+{
+    animation: spin 1s linear infinite;
+}
+
+
+@keyframes spin { 
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(-360deg);
+    }
+}
