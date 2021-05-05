@@ -12,3 +12,27 @@
     background-color: red;
 }
 
+
+
+/* Esercizio 2 */
+
+.ex-2-square
+{
+    transition: width 2s;
+}
+
+.ex-2-square:active
+{
+    width: 100%;
+}
+
+
+/* Esercizio 3 */
+
+.ex-3-square
+{
+    transition: border-radius 2s;
+}
+
+
+.ex
